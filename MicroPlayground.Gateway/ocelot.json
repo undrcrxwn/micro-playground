@@ -1,0 +1,61 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/todos/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "jsonplaceholder.typicode.com",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "/todos/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5015
+        }
+      ],
+      "UpstreamPathTemplate": "/weather",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "AuthenticationProviderKey": "IdentityApiKey",
+      "AllowedScopes": []
+    },
+    {
+      "DownstreamPathTemplate": "/roles/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5005
+        }
+      ],
+      "UpstreamPathTemplate": "/roles/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "AuthenticationProviderKey": "IdentityApiKey",
+      "AllowedScopes": []
+    },
+    {
+      "DownstreamPathTemplate": "/account/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5005
+        }
+      ],
+      "UpstreamPathTemplate": "/account/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "AuthenticationProviderKey": "IdentityApiKey",
+      "AllowedScopes": []
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  }
+}

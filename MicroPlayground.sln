@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroPlayground.Gateway", "MicroPlayground.Gateway\MicroPlayground.Gateway.csproj", "{3F4C7A67-21B6-4D8E-AB65-0734D87D356D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroPlayground.Weather", "MicroPlayground.Weather\MicroPlayground.Weather.csproj", "{987F9179-248C-4700-B763-45F325FC7F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroPlayground.IdentityServer", "MicroPlayground.IdentityServer\MicroPlayground.IdentityServer.csproj", "{A763B15B-FDA7-48C5-B3F3-53D66E21679B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{1E7E4A25-63D0-48DC-B5EC-0A27EFE12159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4C7A67-21B6-4D8E-AB65-0734D87D356D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4C7A67-21B6-4D8E-AB65-0734D87D356D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4C7A67-21B6-4D8E-AB65-0734D87D356D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4C7A67-21B6-4D8E-AB65-0734D87D356D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987F9179-248C-4700-B763-45F325FC7F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987F9179-248C-4700-B763-45F325FC7F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987F9179-248C-4700-B763-45F325FC7F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987F9179-248C-4700-B763-45F325FC7F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A763B15B-FDA7-48C5-B3F3-53D66E21679B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A763B15B-FDA7-48C5-B3F3-53D66E21679B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A763B15B-FDA7-48C5-B3F3-53D66E21679B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A763B15B-FDA7-48C5-B3F3-53D66E21679B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7E4A25-63D0-48DC-B5EC-0A27EFE12159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7E4A25-63D0-48DC-B5EC-0A27EFE12159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7E4A25-63D0-48DC-B5EC-0A27EFE12159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7E4A25-63D0-48DC-B5EC-0A27EFE12159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
